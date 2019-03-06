@@ -1,0 +1,14 @@
+#container{
+max-height: 450px;
+  max-width: 450px;
+  margin-left: 140px;
+  display: grid;
+  grid-template-columns: repeat(var(--colNum), 1fr);
+  grid-template-rows: repeat(var(--rowNum), 1fr);
+}
+
+.cells{
+  border:groove;
+  background-color:white;
+  box-sizing: border-box;
+}
